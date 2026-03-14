@@ -1,0 +1,16 @@
+secret_number = 9
+
+i = 1
+
+while i <= 3:
+    a = int(input("Guess the secret number between 1 to 100: "))
+
+    if a == secret_number:
+        print("Correct Guess")
+        break
+    else:
+        print("Try Again")
+
+    i = i + 1
+
+print("Game Over")
